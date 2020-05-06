@@ -25,15 +25,15 @@
 可登录，然后获取APPID。
 [登录](https://mp.weixin.qq.com/)，成功后可看到如下界⾯
 
-![image-20200506102744939](upload\image-20200506102744939.png)
+![image-20200506102744939](upload/image-20200506102744939.png)
 
-![image-20200506102845386](upload\image-20200506102845386.png)
+![image-20200506102845386](upload/image-20200506102845386.png)
 
 ## 开发⼯具
 
 [下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
-![image-20200506102943585](upload\image-20200506102943585.png)
+![image-20200506102943585](upload/image-20200506102943585.png)
 
 微信⼩程序⾃带开发者⼯具，集**开发 ** **预览** **调试** **发布** 于⼀⾝的完整环境。
 但是由于编码的体验不算好，因此建议使⽤ `vs code`  + **微信小程序编辑工具** 来实现编码
@@ -45,15 +45,15 @@
 
 **注意**第⼀次登录的时候需要扫码登录
 
-![image-20200506103723824](upload\image-20200506103723824.png)
+![image-20200506103723824](upload/image-20200506103723824.png)
 
 ## 新建⼩程序项⽬
 
-![image-20200506103904424](upload\image-20200506103904424.png)
+![image-20200506103904424](upload/image-20200506103904424.png)
 
 ## 填写项⽬信息
 
-![image-20200506103942936](upload\image-20200506103942936.png)
+![image-20200506103942936](upload/image-20200506103942936.png)
 
 ## 搭建⽬录结构
 
@@ -92,7 +92,7 @@
 5. 将样式⽂件由`css`修改为`wxss`
 6. ⼩程序中引⼊
 
-![image-20200506105106682](upload\image-20200506105106682.png)
+![image-20200506105106682](upload/image-20200506105106682.png)
 
 ```
 @import "./styles/iconfont.wxss";
@@ -140,7 +140,7 @@
 
 ## 效果
 
-![image-20200506105417678](upload\image-20200506105417678.png)
+![image-20200506105417678](upload/image-20200506105417678.png)
 
 ## 业务逻辑
 
@@ -222,7 +222,7 @@
 
 ## 效果
 
-![image-20200506110526804](upload\image-20200506110526804.png)
+![image-20200506110526804](upload/image-20200506110526804.png)
 
 ## 业务逻辑
 
@@ -313,7 +313,7 @@
 
 ## 效果
 
-![image-20200506115054804](upload\image-20200506115054804.png)
+![image-20200506115054804](upload/image-20200506115054804.png)
 
 ## 业务逻辑 
 
@@ -408,7 +408,7 @@
 
 ## 效果
 
-![image-20200506120848388](upload\image-20200506120848388.png)
+![image-20200506120848388](upload/image-20200506120848388.png)
 
 ## 业务逻辑
 
@@ -573,7 +573,7 @@
 
 ## 效果
 
-![image-20200506124114207](upload\image-20200506124114207.png)
+![image-20200506124114207](upload/image-20200506124114207.png)
 
 ## 业务逻辑
 
@@ -593,7 +593,7 @@
 
 ## 效果
 
-![image-20200506124342327](upload\image-20200506124342327.png)
+![image-20200506124342327](upload/image-20200506124342327.png)
 
 ## 业务逻辑
 
@@ -836,7 +836,7 @@ export const showModal = ({ content }) => {
 
 ## 效果
 
-![image-20200506130355039](upload\image-20200506130355039.png)
+![image-20200506130355039](upload/image-20200506130355039.png)
 
 ## 业务逻辑
 
@@ -851,7 +851,7 @@ export const showModal = ({ content }) => {
 
 ## ⽀付流程
 
-![image-20200506132340262](upload\image-20200506132340262.png)
+![image-20200506132340262](upload/image-20200506132340262.png)
 
 ## 接⼝
 
@@ -967,11 +967,11 @@ export const requestPayment = (pay) => {
 
 ## 效果
 
-![image-20200506133549428](upload\image-20200506133549428.png)
+![image-20200506133549428](upload/image-20200506133549428.png)
 
 ## 业务逻辑
 
-![image-20200506133600943](upload\image-20200506133600943.png)
+![image-20200506133600943](upload/image-20200506133600943.png)
 
 1. 获取⽤⼾信息
 
@@ -1047,7 +1047,7 @@ export const requestPayment = (pay) => {
 
 ## 效果
 
-![image-20200506134606959](upload\image-20200506134606959.png)
+![image-20200506134606959](upload/image-20200506134606959.png)
 
 ## 业务逻辑
 
@@ -1162,7 +1162,7 @@ export const requestPayment = (pay) => {
 
 ## 效果
 
-![image-20200506135930426](upload\image-20200506135930426.png)
+![image-20200506135930426](upload/image-20200506135930426.png)
 
 ## 接⼝
 
@@ -1246,7 +1246,7 @@ export const requestPayment = (pay) => {
 
 ## 效果
 
-![image-20200506141517905](upload\image-20200506141517905.png)
+![image-20200506141517905](upload/image-20200506141517905.png)
 
 ## 业务逻辑
 
@@ -1276,7 +1276,7 @@ export const requestPayment = (pay) => {
 
 ## 效果
 
-![image-20200506141906353](upload\image-20200506141906353.png)
+![image-20200506141906353](upload/image-20200506141906353.png)
 
 ## 业务逻辑
 
